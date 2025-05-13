@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+}
+
+
+.container {
+    background: rgba(229, 84, 115, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px;
+    max-width: 100%;
+    height: 850px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 5px;
+
+
+}
+
+.text-content {
+    flex: 1;
+    max-width: 500px;
+}
+
+.text-content h1 {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 0%;
+
+}
+
+.text-content p {
+    color: rgba(39, 39, 39, 0.6);
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.continer-btn {
+    background-color: #e91e63;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 20px 43px 20px 43px;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.image-content {
+    display: flex;
+    justify-content: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* part-2
+ */
+
+.featured-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.featured-section h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.featured-section .description {
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.flower-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    padding: 40px 0px 0px 0px;
+    border-radius: 300px 300px 0 0;
+    text-align: center;
+
+}
+
+.card img {
+    width: 310px;
+    height: 428px;
+}
+
+.flower-cards p {
+    margin-bottom: 5px;
+    color: rgb(39, 39, 39);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration-line: underline;
+
+}
+
+.pink-bg {
+    background-color: #fdddea;
+}
+
+.blue-bg {
+    background: rgba(207, 73, 11, 0.15);
+}
+
+.green-bg {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+
+/* part-3
+ */
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #f7f7f7;
+    padding: 50px 10px;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+.service-item {
+    text-align: center;
+    max-width: 400px;
+}
+
+.service-item img {
+    width: 90px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+/* part-4
+ */
+
+
+.deal-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 60px 20px;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+
+.deal-content {
+    max-width: 400px;
+    text-align: center;
+}
+
+.deal-content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.highlight {
+    color: #e91e63;
+}
+
+.deal-content p {
+    margin: 15px 0;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 700;
+    cursor: pointer;
+    transition: background 0.4s ease;
+    padding: 10px 23px;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.btn:hover {
+    background-color: #290413;
+}
+
+.deal-image img {
+    width: 200px;
+    height: auto;
+}
+
+
+
+
+
+
+
+.flower-carts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+.subscription-section {
+    background: url('Flower Asset/Rectangle 9.png') no-repeat center;
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.content {
+    padding: 20px;
+    display: inline-block;
+}
+
+.content h2 {
+    margin: 10px;
+    color: rgb(39, 39, 39);
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.content p {
+    margin-bottom: 20px;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.email-form {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 5px;
+    justify-content: center;
+
+}
+
+.email-form input[type="email"] {
+    padding: 20px 200px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.email-form button {
+    padding: 10px 20px;
+    background-color: #e64980;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.email-form button:hover {
+    background-color: #181415;
+}
