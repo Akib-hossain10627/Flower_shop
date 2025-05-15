@@ -252,18 +252,17 @@ body {
 
 .subscription-section {
     background: url('Flower Asset/Rectangle 9.png') no-repeat center;
-    padding: 50px 20px;
+    padding: 50px;
     text-align: center;
     color: #333;
     display: flex;
     justify-content: center;
-    align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 .content {
     padding: 20px;
-    display: inline-block;
 }
 
 .content h2 {
@@ -294,23 +293,58 @@ body {
 }
 
 .email-form input[type="email"] {
-    padding: 20px 200px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
+    padding: 50px 250px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
     outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
 }
 
 .email-form button {
-    padding: 10px 20px;
+    padding: 10px 30px;
     background-color: #e64980;
     border: none;
     color: white;
-    font-size: 14px;
-    border-radius: 0 5px 5px 0;
+    font-size: 20px;
+    border-radius: 10px;
     cursor: pointer;
+    font-weight: bold;
 }
 
+
 .email-form button:hover {
-    background-color: #181415;
+    background-color: rgb(128, 22, 101);
+}
+
+.footer {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(17, 16, 16);
+}
+
+.footer h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0%;
+    color: rgb(255, 255, 255);
+}
+
+.footer .description {
+    max-width: 600px;
+    margin: 15px auto;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #746c6c;
 }
